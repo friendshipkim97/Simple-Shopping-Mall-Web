@@ -1,0 +1,270 @@
+*{
+    font-family: sans-serif, monospace, Arial, Times, serif;
+    background-color: blanchedalmond;
+    
+}
+
+ a:hover{
+    font: white;
+
+}
+a:visited{
+    font: white;
+    
+}  
+a:link{
+    font: white;
+}
+a{
+    text-decoration: none;
+}
+
+
+#title{
+    font-size: 30px;
+   text-decoration: underline;
+
+}
+
+
+#navlist{
+    list-style:none;
+    text-align:center;
+    border-top:1px solid red; border-bottom: 1px solid red; padding:10px 0;
+   
+}
+
+
+#navlist li{
+    display:inline;
+    text-transform:uppercase;
+    padding:0 10px; letter-spacing: 10px;
+   
+
+}
+#navlist li a{
+    display:inline;
+    text-transform:uppercase;
+    padding:0 10px; letter-spacing: 10px;
+    text-decoration: none;
+
+}
+
+#navName{
+ text-align: center;
+}
+
+#News{
+    position: relative;
+    top: 70px;
+    left:30%;
+}
+
+#MyACCOUNT, #MyACCOUNT2{
+    float: left;
+    position: relative;
+    margin-right:150px;
+    padding: 30px;
+    left:30%;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 10px;
+}
+#Contacts{
+    float: left;
+    position: relative;
+    top: 70px;
+    left:30%;
+}
+#aboutUs{
+    position: relative;
+    top: 70px;
+    left:30%;
+}
+
+#left {
+    width: 175px;
+    margin-top: 20px;
+    float: left;
+}
+
+#left ul {
+    padding: 0;
+    list-style:none;
+    font-size: 15px;
+    color: white;
+}
+
+#left ul li{
+    /* background: #3f3f3f; */
+    line-height: 30px;
+    border-bottom: 1px solid #3f3f3f;
+    color: white;
+    /* height: 8px; */
+    /* position: relative; */
+}
+
+
+
+#animation{
+    position: relative;
+    left:-170px;
+    animation: myfirst 5s infinite;
+    -webkit-animation: myfirst 5s infinite;
+} 
+@keyframes myfirst{
+    0%{
+        position: relative;
+        left:-170px;
+        top:0px;
+    }
+    25%{
+        position: relative;
+        left:-170px;
+        top:90px;
+    }
+    50%{
+        position: relative;   
+        left:-170px;
+        top:180px;
+    }
+    75%{
+        position: relative;   
+        left:-170px;
+        top:90px;
+    }
+    100% {
+        position: relative;
+        left:-170px;
+        top: 0px;
+    }
+}
+ #center #item{
+    overflow:hidden;
+    float:left;
+    width:1000px;
+    height: 700px;
+}
+
+#computerModel1, #computerModel2{
+   
+    border: 1px dotted red;
+    float:left;
+    width:200px;
+    height:300px;
+    
+}
+#hood, #short-sleeve, #coat, #long-sleeve,
+#woolenHat, #scarf, #socks, #pants{
+   
+    border: 1px dotted red;
+    float:left;
+    width:200px;
+    height:300px;
+    
+}
+#mike, #album, #piano, #headphone,
+#mp3{
+   
+    border: 1px dotted red;
+    float:left;
+    width:200px;
+    height:300px;
+    
+}
+#slate, #ticket, #chair, #popcorn{
+   
+    border: 1px dotted red;
+    float:left;
+    width:200px;
+    height:300px;
+    
+}
+#soccer, #targetboard, #rugby, #shuttlecock,
+#volley, #baseball{
+   
+    border: 1px dotted red;
+    float:left;
+    width:200px;
+    height:300px;
+    
+}
+#sofa, #bathhub, #bed{
+   
+    border: 1px dotted red;
+    float:left;
+    width:200px;
+    height:300px;
+    
+}
+#icecream, #chicken, #cake,
+#pizza, #hamburger{
+   
+    border: 1px dotted red;
+    float:left;
+    width:200px;
+    height:300px;
+    
+}
+
+#right{
+    position: relative;
+    top: -100px;
+    float:right;
+}
+#shopCart{
+    float:left;
+} 
+ #shopCart #bag{
+    overflow:hidden;
+    float:left;
+    width:1000px;
+    height: 700px;
+}
+
+/* .img-background {
+    
+    position: absolute;
+    width:200px;
+    height:200px;
+    left:300px;
+    top:300px;
+    z-index: -1;
+    
+    opacity: 1;
+}  */
+
+#signup{
+    position: relative;
+    left:42%;
+    top:10px;
+    /* background-image: url('photo/쇼핑.jpg'); */
+    /* background-size: 25%; */
+    background-repeat: no-repeat;
+
+}
+
+#findPassword{
+    position: relative;
+    left:38%;
+    top:100px;
+    /* background-image: url('photo/쇼핑.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat; */
+}
+
+footer{
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer2{
+    clear: both;
+    position: absolute;
+    bottom:0;
+    left:40%; 
+  
+}
